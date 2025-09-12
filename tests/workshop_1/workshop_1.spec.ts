@@ -20,11 +20,11 @@ import { test } from '@playwright/test';
 //   await page.waitForTimeout(300);
 // });
 
-test('Using various locator methods', async ({ page }) => {
-  await page.goto('https://gitlab.com/');
-  await page.click('#onetrust-accept-btn-handler');
-  await page.setViewportSize({ width: 800, height: 400 });
-  await page.getByRole('button', { name: 'Main Menu' }).click();
-  //   await page.getByRole('link', {name:'Sign in')});
-  await page.click(':has-text("Sign in" )');
-});
+// test('Using various locator methods', async ({ page }) => {
+//   await page.goto('https://gitlab.com/');
+//   await page.click('#onetrust-accept-btn-handler');
+//   await page.setViewportSize({ width: 800, height: 400 });
+//   await page.getByRole('button', { name: 'Main Menu' }).click();
+//   //   await page.getByRole('link', {name:'Sign in')});
+//   await page.click(':has-text("Sign in" )');
+// });

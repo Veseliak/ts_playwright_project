@@ -1,0 +1,22 @@
+{
+  "name": "ts_playwright_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Veseliak/ts_playwright_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Veseliak/ts_playwright_project/issues"
+  },
+  "homepage": "https://github.com/Veseliak/ts_playwright_project#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.1"
+  }
+}

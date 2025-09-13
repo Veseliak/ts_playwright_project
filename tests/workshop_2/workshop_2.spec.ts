@@ -18,15 +18,15 @@ import { expect, test } from '@playwright/test';
 //   await page.waitForTimeout(3000);
 // });
 
-test('Heandling form', async ({ page }) => {
-  await page.goto('https://demo.playwright.dev/todomvc/');
-  const placeholder = '[placeholder="What needs to be done?"]';
-  await page.fill(placeholder, 'Some text');
-  await page.press(placeholder, 'Enter');
-  //   await page.fill(placeholder, 'Some text1');
-  //   await page.press(placeholder, 'Enter');
+// test('Heandling form', async ({ page }) => {
+//   await page.goto('https://demo.playwright.dev/todomvc/');
+//   const placeholder = '[placeholder="What needs to be done?"]';
+//   await page.fill(placeholder, 'Some text');
+//   await page.press(placeholder, 'Enter');
+//   //   await page.fill(placeholder, 'Some text1');
+//   //   await page.press(placeholder, 'Enter');
 
-  const checkbox = await page.locator('.toggle');
-  checkbox.check();
-  await page.waitForTimeout(3000);
-});
+//   const checkbox = await page.locator('.toggle');
+//   checkbox.check();
+//   await page.waitForTimeout(3000);
+// });

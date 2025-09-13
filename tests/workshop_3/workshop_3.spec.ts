@@ -25,7 +25,7 @@ test.skip('Drag and Drop', async ({ page }) => {
   expect(await page.textContent('div.drop-target')).toContain('Success');
 });
 
-test.only('Handling iframe', async ({ page }) => {
+test.skip('Handling iframe', async ({ page }) => {
   await page.goto('http://127.0.0.1:5500/tests/workshop_3/index.html');
   const input = '#iframe-input';
   const frame = await page.frame({ name: 'iframeName' });

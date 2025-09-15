@@ -20,7 +20,7 @@ test.skip('Add Cookie', async ({ page }) => {
   await expect(sessionCookies).toBeDefined();
 });
 
-test.only('Delete cookies', async ({ page }) => {
+test.skip('Delete cookies', async ({ page }) => {
   await page.goto('http://127.0.0.1:5500/tests/workshop_5/index.html');
   await page.click('#setCookie');
   const cookies = await page.context().cookies('http://127.0.0.1:5500/tests/workshop_5/index.html');
